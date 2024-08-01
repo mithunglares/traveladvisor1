@@ -66,7 +66,7 @@ logger = logging.getLogger("uvicorn")
 # CONFIGURE OPENTELEMETRY
 
 resource = Resource.create({
-    "service.name": "easytravel-ai",
+    "service.name": "easytravel-ai-Mit-Main",
     "service.version": "0.1.0"
 })
 
