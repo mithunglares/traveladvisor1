@@ -58,8 +58,8 @@ logger = logging.getLogger(__name__)
 # # CONFIGURE OPENTELEMETRY
 
 resource = Resource.create({
-    "service.name": "easytravel-ai-rag",
-    "service.version": "0.1.0"
+    "service.name": "easytravel-ai-rag-Mit",
+    "service.version": "0.1.1"
 })
 
 logger.info(f"OTEL_COLLECTOR_ENDPOINT: {OTEL_COLLECTOR_ENDPOINT}")
