@@ -67,7 +67,7 @@ logger = logging.getLogger("uvicorn")
 
 resource = Resource.create({
     "service.name": "easytravel-ai-Mit-Main",
-    "service.version": "0.1.0"
+    "service.version": "0.1.1"
 })
 
 provider = TracerProvider(resource=resource)
